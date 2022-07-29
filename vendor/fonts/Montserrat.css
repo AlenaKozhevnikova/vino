@@ -1,0 +1,24 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-weight: 500;
+  font-display: swap;
+  src: url("montserrat_medium.woff2?v=3.19") format("woff2");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: Regular;
+  font-weight: 400;
+  font-display: swap;
+  src: url("montserrat_regular.woff2?v=3.19") format("woff2");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: SemiBold;
+  font-weight: 600;
+  font-display: swap;
+  src: url("montserrat_semibold.woff2?v=3.19") format("woff2");
+}

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'PlayfairDisplay';
+  font-style: Bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url("playfair_display_bold.woff2?v=3.19") format("woff2");
+}

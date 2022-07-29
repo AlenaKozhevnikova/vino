@@ -1,0 +1,14 @@
+.header {
+  background: linear-gradient(180deg, #282828 0%,
+  rgba(40, 40, 40, 0) 100%), url('../../images/bgc.png'), #EDEDED;
+  background-position: center center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 900px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  color: #FFFFFF;
+  padding-top: 30px;
+
+}
