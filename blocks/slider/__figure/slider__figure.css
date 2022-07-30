@@ -1,0 +1,8 @@
+.slider__figure {
+  position: relative;
+  width: 800%;
+  margin: 0;
+  left: 0;
+  animation: 40s slider infinite;
+  float: left;
+}

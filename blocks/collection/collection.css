@@ -1,0 +1,8 @@
+.collection {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  background-color: #E6E3C4;
+  justify-content: center;
+  padding-top: 80px;
+}

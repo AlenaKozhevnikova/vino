@@ -4,3 +4,17 @@ justify-content: space-between;
 max-width: 1110px;
 margin: 0 auto;
 }
+
+@media (max-width: 1106px) {
+  .header__contact-info {
+padding-left: 5em;
+padding-right: 5em;
+}
+}
+
+@media (max-width: 500px) {
+  .header__contact-info {
+padding-left: 2em;
+padding-right: 2em;
+}
+}

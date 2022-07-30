@@ -1,0 +1,16 @@
+.table__year {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  min-width: 75px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 31px;
+  border-top: 1px solid #282828;
+  border-right: 1px solid #282828;
+}
+
+.table__year:first-child {
+  border-top: none;
+}

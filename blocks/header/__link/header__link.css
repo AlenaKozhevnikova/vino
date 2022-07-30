@@ -16,3 +16,29 @@
 .header__link:last-child {
   border-right: none;
 }
+
+@media (max-width: 1106px) {
+  .header__link {
+    min-width: 400px;
+}
+
+  .header__link:nth-child(2n) {
+  border-right: none;
+}
+  .header__link:nth-child(2n+1) {
+  border-left: none;
+}
+}
+
+@media (max-width: 802px) {
+  .header__link {
+    border-right: none;
+    border-left: none;
+}
+}
+
+@media (max-width: 500px) {
+  .header__link {
+    min-width: 320px;
+}
+}

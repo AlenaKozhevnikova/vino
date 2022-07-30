@@ -1,0 +1,5 @@
+.table__cells {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(auto, auto);
+}

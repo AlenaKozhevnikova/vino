@@ -1,0 +1,13 @@
+.text__paragraph {
+  max-width: 733px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  padding-left: 1em;
+  padding-right: 1em;
+}

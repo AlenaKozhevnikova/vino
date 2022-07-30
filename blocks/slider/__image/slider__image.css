@@ -1,0 +1,6 @@
+.slider__image {
+  float: left;
+  object-fit: cover;
+  width: 540px;
+  height: 500px;
+}
