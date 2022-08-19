@@ -1,0 +1,20 @@
+.form__input-submit {
+  width: 100%;
+  background-color: #282828;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  height: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (max-width: 786px) {
+  .button {
+    font-size: 13px;
+}
+}

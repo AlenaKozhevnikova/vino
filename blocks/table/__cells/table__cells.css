@@ -3,3 +3,9 @@
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(auto, auto);
 }
+
+@media (max-width: 800px) {
+  .table__cells {
+    max-width: 360px;
+}
+}

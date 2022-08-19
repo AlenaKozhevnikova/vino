@@ -1,0 +1,36 @@
+.footer__info {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-left: 1px solid #FFFFFF;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding-left: 55px;
+}
+
+.footer__info:first-child {
+  border-left: none;
+}
+
+@media (max-width: 1130px) {
+  .footer__info {
+    padding-left: 20px;
+}
+}
+
+@media (max-width: 700px) {
+  .footer__info {
+    padding-left: 10px;
+    border-left: none;
+}
+}
+
+@media (max-width: 360px) {
+  .footer__info {
+    padding-left: 0;
+    font-size: 10px;
+}
+}

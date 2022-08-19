@@ -1,0 +1,12 @@
+.form__input-lastname {
+  width: 48%;
+  background-color: #282828;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  cursor: pointer;
+}

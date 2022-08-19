@@ -1,0 +1,8 @@
+.form__input {
+  display: flex;
+  max-width: 541px;
+  flex-wrap: wrap;
+  padding-top: 76px;
+  padding-bottom: 80px;
+  justify-content: space-between;
+}

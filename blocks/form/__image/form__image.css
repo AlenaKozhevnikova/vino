@@ -1,0 +1,19 @@
+.form__image {
+  max-width: 30%;
+  padding-top: 60px;
+  object-fit: contain;
+  align-self: flex-start;
+  z-index: 5;
+}
+
+@media (max-width: 1106px) {
+  .form__image {
+    width: 20%;
+}
+}
+
+@media (max-width: 800px) {
+  .form__image {
+    display: none;
+}
+}

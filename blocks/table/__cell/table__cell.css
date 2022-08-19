@@ -8,3 +8,9 @@
 .table__cell:nth-child(2) {
   border-top: none;
 }
+
+@media (max-width: 550px) {
+  .table__cell {
+    min-width: 200px;
+}
+}

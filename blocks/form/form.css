@@ -1,0 +1,41 @@
+.form {
+  max-width: 1300px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+.form::after {
+  content: '';
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85.5%;
+  height: 80%;
+  border: 3px solid white;
+  z-index: -1;
+}
+
+@media (max-width: 1106px) {
+  .form::after {
+    width: 70%;
+}
+}
+
+@media (max-width: 800px) {
+  .form::after {
+    display: none;
+}
+}
+
+@media (max-width: 800px) {
+  .form {
+    justify-content: center;
+}
+}
